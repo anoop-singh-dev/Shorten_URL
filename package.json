@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app"
   },
-  "author": "",
+  "author": "Anoop Singh",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
