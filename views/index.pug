@@ -1,0 +1,19 @@
+extends layout
+
+block title
+  title Shorty
+  
+block content
+  h1 Shorten your URL
+  br
+  form(method='POST', action='/')
+    #form-group
+      input.form-control(name='url', type='text' placeholder='Enter a URL to shorten')
+    br
+    input.btn.btn-success(type='submit', value='Submit')
+  if theUrl
+    br
+    h5
+      small Your shortened URL: 
+        strong
+          a(id="addressCopyLink" onclick="copyToClipboard()")!= "localhost:3000/" + theUrl

@@ -1,0 +1,7 @@
+#addressCopyLink{
+  color:#307df6;
+}
+#addressCopyLink:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
